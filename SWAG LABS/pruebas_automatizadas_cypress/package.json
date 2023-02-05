@@ -1,0 +1,16 @@
+{
+  "name": "pruebas-automatizadas-cypress",
+  "version": "1.0.0",
+  "description": "Diseño de pruebas automatizadas en cypress para el sitio web de SwagLabs",
+  "main": "index.js",
+  "scripts": {
+    "tests": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tests-chrome": "cypress run --spec cypress/e2e/tests-swag-labs.cy.js --browser chrome",
+    "tests-edge": "cypress run --spec cypress/e2e/tests-swag-labs.cy.js --browser edge",
+    "tests-firefox": "cypress run --spec cypress/e2e/tests-swag-labs.cy.js --browser firefox"
+  },
+  "keywords": [],
+  "author": "Martin Suarez",
+  "license": "ISC"
+}
